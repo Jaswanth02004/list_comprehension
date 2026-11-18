@@ -21,3 +21,10 @@ The script (`List Comprehension.py`) is broken down into commented sections for 
 2. Open `List Comprehension.py` in your editor, uncomment the block (`''' ... '''`) you want to run[cite: 4], and execute:
    ```bash
    python "List Comprehension.py"
+
+
+a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+result = [y for x in a for y in x]
+
+print(result)
+# Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
